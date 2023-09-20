@@ -38,7 +38,6 @@ for day in schedule:
 #           schedule[day])
     
 
-# # ATTEMPT 3 
 # for day in schedule:
 #     print(schedule[day])
 
