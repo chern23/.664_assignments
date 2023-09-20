@@ -38,7 +38,7 @@ for day in schedule:
 #           schedule[day])
     
 
+# # ATTEMPT 3 - same result as ATTEMPT 4
 # for day in schedule:
 #     print(schedule[day])
-
 
