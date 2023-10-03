@@ -1,3 +1,0 @@
-hello
-hello
-all of these are on their own line because of the \n 
