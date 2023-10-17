@@ -3,7 +3,7 @@ import csv
 nat_list = {}
 
 
-with open('week_4/Artworks.csv') as art_file:
+with open('Artworks.csv') as art_file:
         processed_csv = csv.DictReader(art_file)
         for artwork in processed_csv:
             nationalities_str = artwork['Nationality']
