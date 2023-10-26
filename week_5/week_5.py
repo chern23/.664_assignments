@@ -19,7 +19,7 @@ with open('Artworks.json', 'r') as art_file:
             art_pieces_by_nationality[nationality].append(art_piece)
 
     for nationality, pieces in art_pieces_by_nationality.items():
-        filename = f'week_5/res/{nationality}.json'
+        filename = f'res/{nationality}.json'
         with open(filename, 'w') as outfile:
             json.dump(pieces, outfile, indent=2)
 
