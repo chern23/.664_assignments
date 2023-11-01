@@ -17,8 +17,8 @@ object_api_url = "https://collectionapi.metmuseum.org/public/collection/v1/objec
 # Parameters for the search query
 search_params = {
     "q": "van gogh",
-    "isOnView": True,
-    "hasImages": True
+    "isOnView": 'true',
+    "hasImages": 'true'
 }
 
 # Make a GET request to the MET's search API
